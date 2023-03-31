@@ -14,6 +14,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func onTimerTapped() {
+        print("Time")
+    }
+    
+    @IBAction func onDateTapped() {
+        print("Date")
+    }
+    
+    @IBAction func onLopcationTapped() {
+        print("Location")
+    }
 }
 
